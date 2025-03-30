@@ -1,0 +1,39 @@
+{
+  "company_name": "Örnek Şirketi Ltd.",
+  "company_vat": "GB123456789",
+  "tax_year_start": "04-06",
+  "currency": "GBP",
+  "company_info": {
+    "utr": "1234567890",
+    "address": "123 Example Street\nLondon\nSW1A 1AA\nUnited Kingdom",
+    "phone": "+44 20 1234 5678",
+    "email": "info@ornek-sirket.com",
+    "website": "www.ornek-sirket.com",
+    "activity": "Danışmanlık Hizmetleri",
+    "vat_registered": true,
+    "vat_registration_date": "2022-01-01",
+    "bank": {
+      "name": "Example Bank",
+      "account_name": "Örnek Şirketi Ltd",
+      "account_number": "12345678",
+      "sort_code": "12-34-56"
+    }
+  },
+  "hmrc_api": {
+    "client_id": "your_client_id_here",
+    "client_secret": "your_client_secret_here",
+    "endpoint": "https://test.api.service.hmrc.gov.uk/",
+    "redirect_uri": "http://localhost:8080/callback"
+  },
+  "backup": {
+    "auto_backup": true,
+    "backup_interval": 24,
+    "keep_backups": 30
+  },
+  "log_level": "INFO",
+  "language": "tr",
+  "theme": "light",
+  "decimal_separator": ".",
+  "thousands_separator": ",",
+  "backup_dir": "backups"
+}

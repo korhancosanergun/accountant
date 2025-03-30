@@ -1,0 +1,33 @@
+# UK Muhasebe Yazılımı Bağımlılıkları
+
+# Temel Bağımlılıklar
+PyQt5>=5.15.0      # GUI kütüphanesi
+PyQtChart>=5.15.0  # Grafik görselleştirme için QChart bileşeni
+
+# HTTP İşlemleri
+requests>=2.25.0   # HMRC API istekleri için
+
+# Tarih/Zaman İşlemleri
+python-dateutil>=2.8.2  # Gelişmiş tarih işlemleri
+
+# Veri İşleme
+openpyxl>=3.0.7    # Excel dosyaları için
+pandas>=1.3.0      # Veri manipülasyonu ve analizi
+
+# Para Birimi İşlemleri
+babel>=2.9.1       # Para birimi formatlamaları
+
+# Rapor Oluşturma
+jinja2>=3.0.1      # Şablon motoru
+weasyprint>=53.0   # PDF oluşturma
+
+# Dosya İşlemleri
+pyyaml>=6.0        # YAML dosya desteği
+
+# Yardımcı Araçlar
+tqdm>=4.62.0       # İlerleme çubukları
+colorama>=0.4.4    # Renkli konsol çıktıları
+
+# Opsiyonel API İşlemleri
+oauthlib>=3.1.1    # OAuth 2.0 işlemleri
+pyopenssl>=20.0.1  # SSL sertifika işlemleri
